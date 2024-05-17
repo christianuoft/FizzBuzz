@@ -41,7 +41,7 @@ class FizzBuzz {
         }
     }
 
-    private static void doFizzBuzz(boolean divisibleBy3, boolean divisibleBy5, int i) {
+    public static void doFizzBuzz(boolean divisibleBy3, boolean divisibleBy5, int i) {
         if (divisibleBy3 && divisibleBy5) {
             System.out.println("Fizz Buzz");
         }
